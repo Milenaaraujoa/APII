@@ -178,12 +178,9 @@
 
         <a href="redef_senha.html" class="forgot-password">Esqueceu sua senha?</a>
 
-        <button >
-          <span>
-          <a href="./adm_dashboard/index.html">Entrar</a></span>
-        </button>
+        <button type="submit">Entrar</button>
         {% for k, v in form.erros.items%}
-            {{v}}
+            {{  v }}
         {% endfor %}
       </form>
     </div>
